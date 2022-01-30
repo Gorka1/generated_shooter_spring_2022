@@ -5,21 +5,179 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637788387833722892
-    m_Hash: 817458310
+      ticks: 637790936815581532
+    m_Hash: 1650064765
   m_LockFileStatus:
     m_FilePath: C:/Users/Gorka/Documents/Game_Dev_Files/generated_shooter_spring_2022/Generate_Shooter_Spring_2022/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637788387833992165
-    m_Hash: 1615688381
+      ticks: 637790938296420004
+    m_Hash: 3950584579
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.2d.animation@5.0.10
+      testable: 0
+      isDirectDependency: 1
+      version: 5.0.10
+      source: 1
+      resolvedPath: C:\Users\Gorka\Documents\Game_Dev_Files\generated_shooter_spring_2022\Generate_Shooter_Spring_2022\Library\PackageCache\com.unity.2d.animation@5.0.10
+      assetPath: Packages/com.unity.2d.animation
+      name: com.unity.2d.animation
+      displayName: 2D Animation
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Animation provides all the necessary tooling and runtime components
+        for skeletal animation using Sprites.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.15-preview.1
+        - 1.0.15-preview.2
+        - 1.0.15-preview.3
+        - 1.0.15-preview.4
+        - 1.0.15-preview.5
+        - 1.0.16-preview
+        - 1.0.16-preview.1
+        - 1.0.16-preview.2
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0-preview.3
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0-preview.7
+        - 2.2.0-preview.1
+        - 2.2.0-preview.4
+        - 2.2.0-preview.5
+        - 2.2.1-preview.1
+        - 2.2.1-preview.2
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.8
+        - 3.1.0
+        - 3.1.1
+        - 3.2.1
+        - 3.2.2
+        - 3.2.3
+        - 3.2.4
+        - 3.2.5
+        - 3.2.6
+        - 3.2.9
+        - 3.2.10
+        - 3.2.11
+        - 3.2.13
+        - 3.2.14
+        - 3.2.15
+        - 3.2.16
+        - 4.0.0
+        - 4.0.1
+        - 4.1.0
+        - 4.1.1
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        - 4.2.4
+        - 4.2.5
+        - 4.2.6
+        - 4.2.8
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
+        - 5.0.3
+        - 5.0.4
+        - 5.0.5
+        - 5.0.6
+        - 5.0.7
+        - 5.0.8
+        - 5.0.9
+        - 5.0.10
+        - 5.1.0
+        - 6.0.0-pre.1
+        - 6.0.0-pre.2
+        - 6.0.1
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.7
+        - 7.0.0-pre.2
+        - 7.0.0-pre.3
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.3
+        - 8.0.0-pre.4
+        compatible:
+        - 5.0.10
+        - 5.1.0
+        verified: 5.0.10
+      dependencies:
+      - name: com.unity.2d.common
+        version: 4.0.4
+      - name: com.unity.mathematics
+        version: 1.1.0
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.2d.common
+        version: 4.0.4
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      - name: com.unity.mathematics
+        version: 1.1.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      keywords:
+      - 2d
+      - animation
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637750142350000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/2d.git
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
+        path: 
     - packageId: com.unity.2d.psdimporter@4.1.3
       testable: 0
       isDirectDependency: 1
@@ -95,10 +253,8 @@ m_PackageAssets:
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         compatible:
-        - 4.1.0
-        - 4.1.1
-        - 4.1.2
         - 4.1.3
+        - 4.2.0
         verified: 4.1.3
       dependencies:
       - name: com.unity.2d.common
@@ -293,11 +449,8 @@ m_PackageAssets:
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         compatible:
-        - 5.1.3
-        - 5.1.4
-        - 5.1.5
-        - 5.1.6
         - 5.1.7
+        - 5.2.0
         verified: 5.1.7
       dependencies:
       - name: com.unity.mathematics
@@ -406,12 +559,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.collab-proxy@1.5.7
+    - packageId: com.unity.collab-proxy@1.15.7
       testable: 0
       isDirectDependency: 1
-      version: 1.5.7
+      version: 1.15.7
       source: 1
-      resolvedPath: C:\Users\Gorka\Documents\Game_Dev_Files\generated_shooter_spring_2022\Generate_Shooter_Spring_2022\Library\PackageCache\com.unity.collab-proxy@1.5.7
+      resolvedPath: C:\Users\Gorka\Documents\Game_Dev_Files\generated_shooter_spring_2022\Generate_Shooter_Spring_2022\Library\PackageCache\com.unity.collab-proxy@1.15.7
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -475,21 +628,6 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.5.7
-        - 1.6.0
-        - 1.7.1
-        - 1.8.0
-        - 1.9.0
-        - 1.10.2
-        - 1.11.2
-        - 1.12.5
-        - 1.13.5
-        - 1.14.1
-        - 1.14.4
-        - 1.14.7
-        - 1.14.9
-        - 1.15.1
-        - 1.15.4
         - 1.15.7
         - 1.15.9
         - 2.0.0-preview.6
@@ -502,24 +640,33 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.5.7
+        verified: 1.15.9
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
+      - name: com.unity.services.core
+        version: 1.0.1
       resolvedDependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
+      - name: com.unity.services.core
+        version: 1.0.1
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
       keywords:
-      - vsc
-      - version
-      - control
-      - collab
-      - collaboration
-      - collaborate
-      - teams
-      - team
-      - cloud
       - backup
+      - cloud
+      - collab
+      - collaborate
+      - collaboration
+      - control
+      - plastic
+      - plasticscm
+      - source
+      - team
+      - teams
+      - version
+      - vcs
       registry:
         id: main
         name: 
@@ -532,13 +679,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637551413290000000
+      datePublishedTicks: 637744672890000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: f079d307344f568804d3ea6d781013135e614e45
+        revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -651,12 +798,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.9
+    - packageId: com.unity.ide.visualstudio@2.0.12
       testable: 0
       isDirectDependency: 1
-      version: 2.0.9
+      version: 2.0.12
       source: 1
-      resolvedPath: C:\Users\Gorka\Documents\Game_Dev_Files\generated_shooter_spring_2022\Generate_Shooter_Spring_2022\Library\PackageCache\com.unity.ide.visualstudio@2.0.9
+      resolvedPath: C:\Users\Gorka\Documents\Game_Dev_Files\generated_shooter_spring_2022\Generate_Shooter_Spring_2022\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -734,13 +881,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637580705480000000
+      datePublishedTicks: 637720564750000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: c7cd4c6319806423b3d918b3e9599244e3993d41
+        revision: 8d436ff053b9c59677b5e9799208143553cd02d9
         path: 
     - packageId: com.unity.ide.vscode@1.2.4
       testable: 0
@@ -868,7 +1015,6 @@ m_PackageAssets:
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
-        - 1.1.27
         - 1.1.29
         - 1.1.30
         - 2.0.1-pre.12
@@ -3176,6 +3322,61 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
         revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
         path: 
+    - packageId: com.unity.services.core@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: C:\Users\Gorka\Documents\Game_Dev_Files\generated_shooter_spring_2022\Generate_Shooter_Spring_2022\Library\PackageCache\com.unity.services.core@1.0.1
+      assetPath: Packages/com.unity.services.core
+      name: com.unity.services.core
+      displayName: Services Core
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'This package defines common components used by multiple Game
+        Service packages.
+
+        These are standardized and aim to unify the overall
+        experience of working with Game Services packages.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        compatible:
+        - 1.0.1
+        verified: 1.0.1
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+        path: 
     - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
@@ -3307,8 +3508,8 @@ m_PackageAssets:
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         compatible:
-        - 4.0.3
         - 4.0.4
+        - 4.1.0
         verified: 4.0.4
       dependencies:
       - name: com.unity.2d.sprite
@@ -3392,7 +3593,6 @@ m_PackageAssets:
         - 5.0.0
         - 5.0.1
         compatible:
-        - 4.0.1
         - 4.0.2
         verified: 4.0.2
       dependencies: []
@@ -3420,168 +3620,7 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: 6f9c488e4d487ead34ee4d516f0a2f4a911a8b25
         path: 
-    - packageId: com.unity.2d.animation@5.0.10
-      testable: 0
-      isDirectDependency: 1
-      version: 5.0.10
-      source: 1
-      resolvedPath: C:\Users\Gorka\Documents\Game_Dev_Files\generated_shooter_spring_2022\Generate_Shooter_Spring_2022\Library\PackageCache\com.unity.2d.animation@5.0.10
-      assetPath: Packages/com.unity.2d.animation
-      name: com.unity.2d.animation
-      displayName: 2D Animation
-      author:
-        name: 
-        email: 
-        url: 
-      category: 2D
-      type: 
-      description: 2D Animation provides all the necessary tooling and runtime components
-        for skeletal animation using Sprites.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.15-preview.1
-        - 1.0.15-preview.2
-        - 1.0.15-preview.3
-        - 1.0.15-preview.4
-        - 1.0.15-preview.5
-        - 1.0.16-preview
-        - 1.0.16-preview.1
-        - 1.0.16-preview.2
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
-        - 2.0.0-preview.3
-        - 2.1.0-preview.1
-        - 2.1.0-preview.2
-        - 2.1.0-preview.4
-        - 2.1.0-preview.5
-        - 2.1.0-preview.7
-        - 2.2.0-preview.1
-        - 2.2.0-preview.4
-        - 2.2.0-preview.5
-        - 2.2.1-preview.1
-        - 2.2.1-preview.2
-        - 3.0.2
-        - 3.0.3
-        - 3.0.4
-        - 3.0.5
-        - 3.0.6
-        - 3.0.8
-        - 3.1.0
-        - 3.1.1
-        - 3.2.1
-        - 3.2.2
-        - 3.2.3
-        - 3.2.4
-        - 3.2.5
-        - 3.2.6
-        - 3.2.9
-        - 3.2.10
-        - 3.2.11
-        - 3.2.13
-        - 3.2.14
-        - 3.2.15
-        - 3.2.16
-        - 4.0.0
-        - 4.0.1
-        - 4.1.0
-        - 4.1.1
-        - 4.2.1
-        - 4.2.2
-        - 4.2.3
-        - 4.2.4
-        - 4.2.5
-        - 4.2.6
-        - 4.2.8
-        - 5.0.0
-        - 5.0.1
-        - 5.0.2
-        - 5.0.3
-        - 5.0.4
-        - 5.0.5
-        - 5.0.6
-        - 5.0.7
-        - 5.0.8
-        - 5.0.9
-        - 5.0.10
-        - 5.1.0
-        - 6.0.0-pre.1
-        - 6.0.0-pre.2
-        - 6.0.1
-        - 6.0.3
-        - 6.0.4
-        - 6.0.5
-        - 6.0.7
-        - 7.0.0-pre.2
-        - 7.0.0-pre.3
-        - 7.0.0
-        - 7.0.1
-        - 7.0.2
-        - 7.0.3
-        - 8.0.0-pre.3
-        - 8.0.0-pre.4
-        compatible:
-        - 5.0.6
-        - 5.0.7
-        - 5.0.8
-        - 5.0.9
-        - 5.0.10
-        verified: 5.0.10
-      dependencies:
-      - name: com.unity.2d.common
-        version: 4.0.4
-      - name: com.unity.mathematics
-        version: 1.1.0
-      - name: com.unity.2d.sprite
-        version: 1.0.0
-      - name: com.unity.modules.animation
-        version: 1.0.0
-      - name: com.unity.modules.uielements
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.2d.common
-        version: 4.0.4
-      - name: com.unity.2d.sprite
-        version: 1.0.0
-      - name: com.unity.modules.uielements
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.modules.uielementsnative
-        version: 1.0.0
-      - name: com.unity.mathematics
-        version: 1.1.0
-      - name: com.unity.modules.animation
-        version: 1.0.0
-      keywords:
-      - 2d
-      - animation
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637750142350000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
-        path: 
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Gorka/Documents/Game_Dev_Files/generated_shooter_spring_2022/Generate_Shooter_Spring_2022/Packages
-m_EditorVersion: 2020.3.14f1 (d0d1bb862f9d)
+m_EditorVersion: 2020.3.26f1 (7298b473bc1a)
