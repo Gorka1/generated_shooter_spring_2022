@@ -13,25 +13,6 @@ public class Player_Control : MonoBehaviour
     [SerializeField] private GameObject currTarget;
     Vector2 movement;
 
-    // gets an
-    // private GameObject get_closest(List<GameObject> input_list) {
-    //     if (input_list.Count == 0) {
-    //         return null;
-    //     } else {
-    //         GameObject curr_obj = null;
-    //         float curr_low_val = 0;
-    //         float curr_dist = 0;
-    //         for (int i = 0; i < input_list.Count; i++) {
-    //             curr_dist = Vector2.Distance(transform.position, input_list[i].transform.position);
-    //             if (curr_obj == null || curr_dist < curr_low_val) {
-    //                 curr_obj = input_list[i];
-    //                 curr_low_val = curr_dist;
-    //             }
-    //         }
-    //         return curr_obj;
-    //     }
-    // }
-
     private GameObject find_closest_target() {
         float currDist = 0;
         float currMin = Mathf.Infinity;
@@ -74,14 +55,7 @@ public class Player_Control : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        // if (targetBoxScript.get_target_list().Count == 0) {
-        //     GameObject curr_target = get_closest(targetBoxScript.get_target_list());
-        //     // turn the player to the curr_target
-
-        // }
-        // if (currTarget == null) {
-        //     currTarget = targetBoxScript.get_target();
-        // }
+        // each frame get the closest target
         currTarget = find_closest_target();
         if (currTarget != null) {
             turn_to_position(currTarget.transform.position);
