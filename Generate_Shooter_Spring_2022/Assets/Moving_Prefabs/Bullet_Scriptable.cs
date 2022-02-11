@@ -6,6 +6,8 @@ using UnityEngine;
 public class Bullet_Scriptable : ScriptableObject {
     public int damage;      // amount of damage
     public float size;      // radius of bullet
-    public int range;       // range/duration of bullets
+    public float range;       // range/duration of bullets
+    public float speed;       // speed of the bullet
     public Sprite bulletImage;
+    public Color bulletColor;
 }

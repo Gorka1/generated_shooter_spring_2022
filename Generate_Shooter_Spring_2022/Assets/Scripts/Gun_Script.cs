@@ -23,25 +23,23 @@ public class Gun_Script : MonoBehaviour
         }
     }
 
-    private void spawnBullet(Vector3 location, Vector3 forwardDirec) {
+    private void spawnBullet(Vector3 location, Quaternion forwardDirec) {
         GameObject newBullet;
-        // instantiating a clone of itself, not a bullet obj
-        newBullet = Instantiate(bulletObj, location, Quaternion.LookRotation(forwardDirec));
+        newBullet = Instantiate(bulletObj, location, forwardDirec);
         newBullet.GetComponent<Bullet_Data>().bulletData = bulletData;
-        // force is not being added properly !!!
-        newBullet.GetComponent<Rigidbody2D>().AddForce(newBullet.transform.forward * bulletVel);
+        Debug.Log(newBullet.transform.forward);
     }
 
-    private void fire() {
+    public void fire() {
         foreach (GameObject barrel in barrels)
         {
-            spawnBullet(barrel.transform.position, barrel.transform.forward);
+            spawnBullet(barrel.transform.position, barrel.transform.rotation);
         }
     }
 
     private void Update() {
-        if (Input.GetButtonDown("Fire1")) {
-            fire();
-        }
+        // if (Input.GetButtonDown("Fire1")) {
+        //     fire();
+        // }
     }
 }

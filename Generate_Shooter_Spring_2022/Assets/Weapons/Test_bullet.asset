@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Test_bullet
   m_EditorClassIdentifier: 
   damage: 0
-  size: 0.1
-  range: 100
-  bulletImage: {fileID: 21300000, guid: 4ec2bdb17f0383943b0078acac00ae94, type: 3}
+  size: 1
+  range: 2
+  speed: 10
+  bulletImage: {fileID: 21300000, guid: d94190a1d5bd05b4bbad82c9ab7e8e86, type: 3}
+  bulletColor: {r: 0.99453664, g: 1, b: 0.7122642, a: 1}

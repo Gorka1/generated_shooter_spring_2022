@@ -8,6 +8,7 @@ public class Player_Control : MonoBehaviour
     public float range = 2f;
     public Rigidbody2D rb;
     public GameObject targetBox;
+    public GameObject currWeapon;
     
     Target_Box targetBoxScript;
     [SerializeField] private GameObject currTarget;
@@ -52,6 +53,9 @@ public class Player_Control : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        if (Input.GetButtonDown("Fire1")) {
+            currWeapon.GetComponent<Gun_Script>().fire();
+        }
     }
 
     private void FixedUpdate() {
