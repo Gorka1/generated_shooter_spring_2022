@@ -7,10 +7,11 @@ public class Player_Control : MonoBehaviour
     public float moveSpeed = 5f;
     public float range = 2f;
     public Rigidbody2D rb;
-    public GameObject targetBox;
+    //public GameObject targetBox;  // hold over from when colliders where used for target
     public GameObject currWeapon;
+    // public Bullet_Scriptable currBullet;
     
-    Target_Box targetBoxScript;
+    // Target_Box targetBoxScript;
     [SerializeField] private GameObject currTarget;
     Vector2 movement;
 
@@ -44,7 +45,7 @@ public class Player_Control : MonoBehaviour
     }
 
     private void Start() {
-        targetBoxScript = targetBox.GetComponent<Target_Box>();
+        // targetBoxScript = targetBox.GetComponent<Target_Box>();
         //currTarget = targetBox;
     }
 
@@ -53,8 +54,9 @@ public class Player_Control : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetButtonDown("Fire1")) {
-            currWeapon.GetComponent<Gun_Script>().fire();
+        if (Input.GetButton("Fire1") && currWeapon.GetComponent<Gun_Script>().getCanFire()) {
+            Debug.Log("Firing");
+            StartCoroutine(currWeapon.GetComponent<Gun_Script>().fire());
         }
     }
 

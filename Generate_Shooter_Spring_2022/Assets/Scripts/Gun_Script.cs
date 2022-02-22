@@ -7,6 +7,7 @@ public class Gun_Script : MonoBehaviour
     public Bullet_Scriptable bulletData;
     public GameObject bulletObj;
     public float fireRate;
+    bool canFire = true;
     public int ammoCount;
     public float bulletVel = 100;
     [SerializeField]
@@ -27,19 +28,20 @@ public class Gun_Script : MonoBehaviour
         GameObject newBullet;
         newBullet = Instantiate(bulletObj, location, forwardDirec);
         newBullet.GetComponent<Bullet_Data>().bulletData = bulletData;
-        Debug.Log(newBullet.transform.forward);
+        // Debug.Log(newBullet.transform.forward);
     }
 
-    public void fire() {
+    // needed for player_control firing
+    public bool getCanFire() { return canFire; }
+
+    // uses WaitForSeconds() for firerate, thus has to be an IEnum
+    public IEnumerator fire() {
+        canFire = false;
         foreach (GameObject barrel in barrels)
         {
             spawnBullet(barrel.transform.position, barrel.transform.rotation);
         }
-    }
-
-    private void Update() {
-        // if (Input.GetButtonDown("Fire1")) {
-        //     fire();
-        // }
+        yield return new WaitForSeconds(fireRate);
+        canFire = true;
     }
 }

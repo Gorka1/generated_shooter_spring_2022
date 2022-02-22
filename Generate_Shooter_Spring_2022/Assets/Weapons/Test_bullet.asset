@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33c5f8de31961ce4d801528879c0d132, type: 3}
   m_Name: Test_bullet
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 1
   size: 1
   range: 2
   speed: 10

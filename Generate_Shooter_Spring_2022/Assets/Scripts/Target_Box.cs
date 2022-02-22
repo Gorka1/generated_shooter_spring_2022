@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Target_Box : MonoBehaviour
 {
+    // double check to see if this is being used
     // keeps track of all target obj within box range, add/removing them from list as they come and go
     [SerializeField] private List<GameObject> targetList = new List<GameObject>();
 

@@ -6,27 +6,33 @@ public class Bullet_Data : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Bullet_Scriptable bulletData;
-    private int damage;     // do you need these var.s??
+    private float damage;     // do you need these var.s??
     private float size;
     private int range;
     private float initTime; // keep track of time elapsed since init
 
     private void Start() {
         initTime = Time.time;
+        // set up the bullet sprite
         this.GetComponent<SpriteRenderer>().sprite = bulletData.bulletImage;
         this.GetComponent<SpriteRenderer>().color = bulletData.bulletColor;
         // this.GetComponent<CircleCollider2D>().radius = bulletData.size;
         // transform.localScale = transform.localScale * size;
+
+        // set the velocity
         rb.velocity = transform.right * bulletData.speed;
+        // update some values based on bulletData
+        damage = bulletData.damage;
+        // debug
         Debug.Log(this.GetComponent<Rigidbody2D>().velocity);
         Debug.Log(transform.rotation.eulerAngles);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Target") {
-            // do damage to the target
+            other.gameObject.GetComponent<Target_Control>().removeHealth(damage);
+            Destroy(this.gameObject);
         }
-        Destroy(this.gameObject);
     }
 
     private void Update() {
@@ -38,6 +44,6 @@ public class Bullet_Data : MonoBehaviour
         if (currTime > bulletData.range) {
             Destroy(this.gameObject);
         }
-        Debug.Log(currTime);
+        //Debug.Log(currTime);
     }
 }

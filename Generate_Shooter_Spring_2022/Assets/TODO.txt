@@ -1,0 +1,33 @@
+TODO:
+Code:
+-Double check if Target_Box.cs is needed
+    -Get rid of target box ref.s in the code
+
+Shooting:
+-Get aiming working
+-Create system for different guns
+-Find a way to throttle firerate
+    -DONE
+-Have targets take damage
+    -DONE
+
+Levels
+-Start designing the maps
+    -this relies on what the story is
+-Come up with objectives to clear
+
+Story
+-Actually have a story
+-Ideas:
+    -Chip implanted in your head, follow orders to get out alive
+    -In debt to the mob
+    -On a spaceship, AI gone mad, get out of there
+
+Enemies:
+-Make a general pathfinding algo (A*)
+    -have nodes across the maps
+-Create various types
+
+Game Director:
+-The director's job will be to spawn enemies when the time is right
+    -maybe also move things around in the level
